@@ -35,10 +35,23 @@ namespace SpriggsProject
             gameover = false;
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.CursorVisible = false;
+            Console.WriteLine(@"
+            +---------------------------------------------------------------------------------------------------------+
+            |                                                                                                         |
+            |   _________                             _________                                                       |
+            |  /   _____/__________    ____  ____    /   _____/ ____ _____ ___  __ ____   ____    ____   ___________  |
+            |  \_____  \\____ \__  \ _/ ___\/ __ \   \_____  \_/ ___\__  \\  \/ // __ \ /    \  / ___\_/ __ \_  __ \  |
+            |  /        \  |_> > __ \\  \__\  ___/   /        \  \___ / __ \\   /\  ___/|   |  \/ /_/  >  ___/|  | \/ |
+            | /_______  /   __(____  /\___  >___  > /_______  /\___  >____  /\_/  \___  >___|  /\___  / \___  >__|    |
+            |         \/|__|       \/     \/    \/          \/     \/     \/          \/     \//_____/      \/        |
+            |                                                                                                         |
+            +---------------------------------------------------------------------------------------------------------+
+            ");
+
 
             Console.WriteLine
                 (
-                "\n Welcome to Space-Harvest" +
+                "\n Welcome to Space-Scavenger" +
                 "\n\n Enter 1. To Play" +
                 "\n\n Enter 2. To Read the rules" +
                 "\n\n Enter 3. To Exit"
@@ -244,7 +257,7 @@ namespace SpriggsProject
                 "\n     -D to move right by 1\n" +
                 "\n 2. Hit 'O' to spawn in a crystal, do one at a time because only one counts at a time.\n Move over them to collect them and you will gain 10 score each" +
                 "\n     -Once you collect a crystal, hit 'O' again to spawn in another one!\n" +
-                "\n 3. Blue 'X's will spawn, these are distractions (Space-Debris). Walking over them does nothing,\n so don't waste your time on them!\n" +
+                "\n 3. Blue 'X's will spawn, these are dangerous (Space-Debris). Walking over them does kills you,\n so do your besst to avoid them!\n" +
                 "\n 4. If you want to exit before the game ends, hit the Escape key\n" +
                 "\n 5. The game runs on a timer, collect as many crystals as you can before the time runs out!" +
                 "\n\n Hit any key to return to menu"

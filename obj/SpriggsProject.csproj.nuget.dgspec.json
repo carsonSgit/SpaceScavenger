@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cs\\Desktop\\Files\\F23\\JobPrep\\Portfolio_Items\\20211210233340_SpriggsProject\\SpriggsProject\\SpriggsProject.csproj": {}
+    "C:\\Users\\cs\\Source\\Repos\\SpaceScavenger\\SpriggsProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cs\\Desktop\\Files\\F23\\JobPrep\\Portfolio_Items\\20211210233340_SpriggsProject\\SpriggsProject\\SpriggsProject.csproj": {
+    "C:\\Users\\cs\\Source\\Repos\\SpaceScavenger\\SpriggsProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cs\\Desktop\\Files\\F23\\JobPrep\\Portfolio_Items\\20211210233340_SpriggsProject\\SpriggsProject\\SpriggsProject.csproj",
+        "projectUniqueName": "C:\\Users\\cs\\Source\\Repos\\SpaceScavenger\\SpriggsProject.csproj",
         "projectName": "SpriggsProject",
-        "projectPath": "C:\\Users\\cs\\Desktop\\Files\\F23\\JobPrep\\Portfolio_Items\\20211210233340_SpriggsProject\\SpriggsProject\\SpriggsProject.csproj",
+        "projectPath": "C:\\Users\\cs\\Source\\Repos\\SpaceScavenger\\SpriggsProject.csproj",
         "packagesPath": "C:\\Users\\cs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cs\\Desktop\\Files\\F23\\JobPrep\\Portfolio_Items\\20211210233340_SpriggsProject\\SpriggsProject\\obj\\",
+        "outputPath": "C:\\Users\\cs\\Source\\Repos\\SpaceScavenger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,26 +45,15 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x86",
-              "version": "[3.1.25, 3.1.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
             }
           ],
           "frameworkReferences": {
@@ -72,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace SpriggsProject
@@ -13,6 +14,10 @@ namespace SpriggsProject
         static bool gameover = false;
         static int score;
         static int[] keystrokes = new int[4];
+
+        // Keep track of space debris locations
+        static List<Tuple<int, int>> spaceDebrisList = new List<Tuple<int, int>>();
+
         static void Main(string[] args)
         {
             // Opens validation to let Menu work
@@ -79,6 +84,7 @@ namespace SpriggsProject
                 }
                 print();
                 checkCrystal();
+                checkSpaceDebrisCollision();
                 wt++;
                 if (wt % spaceDebris_create == 0)
                 {
@@ -98,6 +104,12 @@ namespace SpriggsProject
             Console.WriteLine("\n\n                 Congratulations! You got a score of " + score + "!  \n                      Enter a key to start again");
             Console.WriteLine("\n   You hit W key {0} times, A key {1} times, S key {2} times, and D key {3} times", keystrokes[0], keystrokes[1], keystrokes[2], keystrokes[3]);
             Console.ReadLine();
+            // reset game info
+            gameover = false;
+            UserX = 60;
+            UserY = 13;
+            score = 0;
+            spaceDebrisList.Clear();
         }
         static void readUserKey() // Reads user keys and moves accordingly
         {
@@ -193,18 +205,30 @@ namespace SpriggsProject
                 Console.WriteLine("v");
             }
         }
-        static void spaceDebris() // Spawns space-debris
+        static void spaceDebris() // Spawns space debris and adds their coords to the static tuple
         {
-            for (int i = 0; i < NumCrystal; i++)
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Random rand = new Random();
+            int newSpaceDebrisX = rand.Next(1, Console.WindowWidth - 2);
+            int newSpaceDebrisY = rand.Next(1, Console.WindowHeight - 2);
+            spaceDebrisList.Add(new Tuple<int, int>(newSpaceDebrisX, newSpaceDebrisY));
+
+            Console.SetCursorPosition(newSpaceDebrisX, newSpaceDebrisY);
+            Console.WriteLine("x");
+        }
+
+        static void checkSpaceDebrisCollision() // check if we collided with space debris
+        {
+            foreach (var debrisCoord in spaceDebrisList)
             {
-                Console.ForegroundColor = ConsoleColor.DarkBlue;
-                Random rand = new Random();
-                spaceDebrisX = rand.Next(1, Console.WindowWidth - 2);
-                spaceDebrisY = rand.Next(1, Console.WindowHeight - 2);
-                Console.SetCursorPosition(spaceDebrisX, spaceDebrisY);
-                Console.WriteLine("x");
+                if (UserX == debrisCoord.Item1 && UserY == debrisCoord.Item2)
+                {
+                    gameover = true;
+                    break; // No need to continue checking if a collision is found
+                }
             }
         }
+
         /* +++++++++++++++++++++++++++++++++++++++++
            +            End of game loop           +
            +++++++++++++++++++++++++++++++++++++++++ */

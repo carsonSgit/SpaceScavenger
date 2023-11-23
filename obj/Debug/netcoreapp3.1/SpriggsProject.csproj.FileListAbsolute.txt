@@ -26,3 +26,17 @@ C:\Users\cs\Desktop\Files\F23\JobPrep\Portfolio_Items\20211210233340_SpriggsProj
 C:\Users\cs\Desktop\Files\F23\JobPrep\Portfolio_Items\20211210233340_SpriggsProject\SpriggsProject\obj\Debug\netcoreapp3.1\SpriggsProject.dll
 C:\Users\cs\Desktop\Files\F23\JobPrep\Portfolio_Items\20211210233340_SpriggsProject\SpriggsProject\obj\Debug\netcoreapp3.1\SpriggsProject.pdb
 C:\Users\cs\Desktop\Files\F23\JobPrep\Portfolio_Items\20211210233340_SpriggsProject\SpriggsProject\obj\Debug\netcoreapp3.1\SpriggsProject.genruntimeconfig.cache
+C:\Users\cs\Source\Repos\SpaceScavenger\bin\Debug\netcoreapp3.1\SpriggsProject.exe
+C:\Users\cs\Source\Repos\SpaceScavenger\bin\Debug\netcoreapp3.1\SpriggsProject.deps.json
+C:\Users\cs\Source\Repos\SpaceScavenger\bin\Debug\netcoreapp3.1\SpriggsProject.runtimeconfig.json
+C:\Users\cs\Source\Repos\SpaceScavenger\bin\Debug\netcoreapp3.1\SpriggsProject.runtimeconfig.dev.json
+C:\Users\cs\Source\Repos\SpaceScavenger\bin\Debug\netcoreapp3.1\SpriggsProject.dll
+C:\Users\cs\Source\Repos\SpaceScavenger\bin\Debug\netcoreapp3.1\SpriggsProject.pdb
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.csproj.AssemblyReference.cache
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.AssemblyInfoInputs.cache
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.AssemblyInfo.cs
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.csproj.CoreCompileInputs.cache
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.dll
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.pdb
+C:\Users\cs\Source\Repos\SpaceScavenger\obj\Debug\netcoreapp3.1\SpriggsProject.genruntimeconfig.cache

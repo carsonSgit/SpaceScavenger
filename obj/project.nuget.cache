@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "L5xq3IFhPF3UNW9Wnbmtr4Ealh8bkb0Rr8JoNyVsCBipCxQdDk2HE8RzjXyLn6hK8WvOcegzwdp7vhWQSXo77A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cs\\Desktop\\Files\\F23\\JobPrep\\Portfolio_Items\\20211210233340_SpriggsProject\\SpriggsProject\\SpriggsProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cs\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\cs\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\cs\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\cs\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.25\\microsoft.netcore.app.host.win-x86.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

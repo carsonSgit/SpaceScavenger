@@ -34,16 +34,6 @@ namespace SpriggsProject
             string choice;
             gameover = false;
             Console.CursorVisible = false;
-            Console.ForegroundColor = ConsoleColor.White;
-
-            // Randomized particles
-            Random random = new Random();
-            for (int i = 0; i < Console.WindowHeight * 0.8; i++) // Limit particles to 80% of the window height
-            {
-                Console.SetCursorPosition(random.Next(Console.WindowWidth), random.Next((int)(Console.WindowHeight * 0.8)));
-                Console.Write("*");
-            }
-
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine(@"
     +---------------------------------------------------------------------------------------------------------+
@@ -58,12 +48,17 @@ namespace SpriggsProject
     +---------------------------------------------------------------------------------------------------------+
     ");
 
+            Console.ForegroundColor = ConsoleColor.White;
+
+            
+
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine
                 (
-                "\n Welcome to Space-Scavenger" +
-                "\n\n Enter 1. To Play" +
-                "\n\n Enter 2. To Read the rules" +
-                "\n\n Enter 3. To Exit"
+                "\n                                           Welcome to Space-Scavenger" +
+                "\n\n                                           Enter 1. To Play" +
+                "\n\n                                           Enter 2. To Read the rules" +
+                "\n\n                                           Enter 3. To Exit"
                 );
             choice = Console.ReadLine();
             if (choice == "1" || choice == "2" || choice == "3")
@@ -89,6 +84,8 @@ namespace SpriggsProject
                     return true;
             }
         }
+
+
 
         /* +++++++++++++++++++++++++++++++++++++++++++
            +        Beginning of game loop           +

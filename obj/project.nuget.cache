@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CUVeEEhvwvaNNaGza3Tt4bQkPexRuyvwaKxJRhWhoNbpdya+nhTPTmmwFniWLj1u3qJZIyiLbOaAeCmjUDQWng==",
+  "dgSpecHash": "26Jtci4fLaL0J35HNm9YPrmcP53LaywuuLV0uBtPbCuphvAlEwGCdH4uR9xT7rEAlYUfVN81quDQiua2e3iCjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\cs\\Documents\\GitHub\\SpaceScavenger\\SpriggsProject.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cs\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\cs\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\cs\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\cs\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.25\\microsoft.netcore.app.host.win-x86.3.1.25.nupkg.sha512"
+    "C:\\Users\\cs\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }

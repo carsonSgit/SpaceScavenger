@@ -6,7 +6,7 @@ namespace SpriggsProject
 {
     class Program
     {
-        static string UserSymbol = "-";
+        static string UserSymbol = "_";
         static string DelDupe = " ";
         static int UserX = 60, UserY = 13, MeSpeed = 1, OldX, OldY, TargetX, TargetY, spaceDebrisX, spaceDebrisY;
         static int NumCrystal = 1;
@@ -117,7 +117,24 @@ namespace SpriggsProject
             }
             keyArrayPopulate();
             Console.Clear();
-            Console.WriteLine("Game over. Hit enter to reach end-screen");
+
+            Console.WriteLine(@"
+    
+
+                        ░██████╗░░█████╗░███╗░░░███╗███████╗  ░█████╗░██╗░░░██╗███████╗██████╗░
+                        ██╔════╝░██╔══██╗████╗░████║██╔════╝  ██╔══██╗██║░░░██║██╔════╝██╔══██╗
+                        ██║░░██╗░███████║██╔████╔██║█████╗░░  ██║░░██║╚██╗░██╔╝█████╗░░██████╔╝
+                        ██║░░╚██╗██╔══██║██║╚██╔╝██║██╔══╝░░  ██║░░██║░╚████╔╝░██╔══╝░░██╔══██╗
+                        ╚██████╔╝██║░░██║██║░╚═╝░██║███████╗  ╚█████╔╝░░╚██╔╝░░███████╗██║░░██║
+                        ░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝  ░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
+            ");
+            Console.WriteLine(@"
+
+
+                  █▀█ █▀█ █▀▀ █▀ █▀   █▀▀ █▄░█ ▀█▀ █▀▀ █▀█   ▀█▀ █▀█   █▀ █▀▀ █▀▀   █▀ █▀▀ █▀█ █▀█ █▀▀
+                  █▀▀ █▀▄ ██▄ ▄█ ▄█   ██▄ █░▀█ ░█░ ██▄ █▀▄   ░█░ █▄█   ▄█ ██▄ ██▄   ▄█ █▄▄ █▄█ █▀▄ ██▄
+            ");
+            //Console.WriteLine("Game over. Hit enter to reach end-screen");
             Console.ReadLine();
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Blue;
@@ -195,7 +212,7 @@ namespace SpriggsProject
             collisionVerify = coordCompare(test);
             if (collisionVerify == true)
             {
-                score = score + 10;
+                score += 10;
             }
         }
         public static bool coordCompare(bool a) // Checks if User collected a crystal

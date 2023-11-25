@@ -8,6 +8,25 @@ Creating this game for my Programming 1 final project was a turning point where 
 
 Welcome to **Space-Scavenger**, a simple console-based game where you navigate through space, collect crystals, and avoid dangerous space debris. Challenge your reflexes and see how many crystals you can collect before time runs out!
 
+# Screenshots
+
+## Title Screen
+![titlescreen](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/2ff7d887-7e3e-4328-93ca-e93d1473cc84)
+
+## Rule Screen
+![rules](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/e8f67509-b0b5-49b1-aa22-e638336ee033)
+
+## Gameplay
+![gameExample](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/2c589739-4317-419c-a745-d6790d5ff322)
+
+## Death Screen
+![deathScreen](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/559db72e-760b-48e5-a0d2-e57376de6cce)
+
+## Score Screen
+![scoreScreen](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/3e0d172b-3cd1-4336-aea7-a98b9d261a08)
+
+
+
 ## How to Play
 
 1. **Movement Keys:**

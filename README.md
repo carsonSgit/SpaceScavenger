@@ -2,7 +2,7 @@
 # 🌌 Space-Scavenger 🕹️
 
 >[!IMPORTANT]
-> I developed this game as my Programming 1 Final Project, please don't judge my skill based off of this..
+> I developed this game as my Programming 1 Final Project (Fall 2021), please don't judge my skill based off of this..
 
 
 Welcome to **Space-Scavenger**, a simple console-based game where you navigate through space, collect crystals, and avoid dangerous space debris. Challenge your reflexes and see how many crystals you can collect before time runs out! 🚀💎
@@ -59,4 +59,5 @@ Welcome to **Space-Scavenger**, a simple console-based game where you navigate t
 
    ```bash
    git clone https://github.com/carsonSgit/SpaceScavenger
+   ```
 

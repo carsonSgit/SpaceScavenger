@@ -1,33 +1,33 @@
-## Background Information
-I developed this game as my Programming 1 Final Project. The original version lacked the lethality of the Space debris and the visual addition of the title-screen ASCII art.
 
-Creating this game for my Programming 1 final project was a turning point where I discovered my passion for coding. The process of immersing myself in solving code bugs, one by one, provided a truly satisfying experience. Please enjoy!
+# 🌌 Space-Scavenger 🕹️
+
+>[!IMPORTANT]
+> I developed this game as my Programming 1 Final Project, please don't judge my skill based off of this..
 
 
-# Space-Scavenger Game
+Welcome to **Space-Scavenger**, a simple console-based game where you navigate through space, collect crystals, and avoid dangerous space debris. Challenge your reflexes and see how many crystals you can collect before time runs out! 🚀💎
 
-Welcome to **Space-Scavenger**, a simple console-based game where you navigate through space, collect crystals, and avoid dangerous space debris. Challenge your reflexes and see how many crystals you can collect before time runs out!
+<br/>
 
-# Screenshots
-
+<div align=center> 
+   
 ## Title Screen
-![titlescreen](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/2ff7d887-7e3e-4328-93ca-e93d1473cc84)
+   <img src="https://github.com/carsonSgit/SpaceScavenger/assets/92652800/2ff7d887-7e3e-4328-93ca-e93d1473cc84" align=center width=800/>
 
 ## Rule Screen
-![rules](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/e8f67509-b0b5-49b1-aa22-e638336ee033)
+   <img src="https://github.com/carsonSgit/SpaceScavenger/assets/92652800/e8f67509-b0b5-49b1-aa22-e638336ee033" align=center width=800/>
 
 ## Gameplay
-![gameExample](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/2c589739-4317-419c-a745-d6790d5ff322)
+   <img src="https://github.com/carsonSgit/SpaceScavenger/assets/92652800/2c589739-4317-419c-a745-d6790d5ff322" align=center width=800/>
 
 ## Death Screen
-![deathScreen](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/559db72e-760b-48e5-a0d2-e57376de6cce)
+   <img src="https://github.com/carsonSgit/SpaceScavenger/assets/92652800/559db72e-760b-48e5-a0d2-e57376de6cce" align=center width=800/>
 
 ## Score Screen
-![scoreScreen](https://github.com/carsonSgit/SpaceScavenger/assets/92652800/3e0d172b-3cd1-4336-aea7-a98b9d261a08)
+   <img src="https://github.com/carsonSgit/SpaceScavenger/assets/92652800/3e0d172b-3cd1-4336-aea7-a98b9d261a08" align=center width=800/>
+</div>
 
-
-
-## How to Play
+## ℹ️ How to Play
 
 1. **Movement Keys:**
    - Use `W` to move up by 1.
@@ -50,9 +50,13 @@ Welcome to **Space-Scavenger**, a simple console-based game where you navigate t
 5. **Scoring:**
    - The game runs on a timer, and your goal is to collect as many crystals as possible before time runs out.
 
-## Getting Started
+>[!NOTE]
+> To fully enjoy the game experience, make sure your console window is sized appropriately for optimal gameplay visuals.
+
+## 🚀 Getting Started
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/carsonSgit/SpaceScavenger
+
